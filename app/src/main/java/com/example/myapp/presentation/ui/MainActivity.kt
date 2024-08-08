@@ -109,7 +109,7 @@ class MainActivity : ComponentActivity() {
                     }
 
 
-                    /*PersonListScreen(viewModel = MainViewModel(
+                    PersonListScreen(viewModel = MainViewModel(
                         DomainModule.provideAddPersonUseCase(DataModule.providePersonRepository(DataModule.provideAppDao(DataModule.provideAppDatabase(
                             applicationContext)))),
                         DomainModule.provideAddFoodUseCase(DataModule.providePersonRepository(DataModule.provideAppDao(DataModule.provideAppDatabase(
@@ -122,7 +122,7 @@ class MainActivity : ComponentActivity() {
                             applicationContext)))),
                         DomainModule.provideGetPersonWithFoodsUseCase(DataModule.providePersonRepository(DataModule.provideAppDao(DataModule.provideAppDatabase(
                             applicationContext))))
-                    ))*/
+                    ))
 
 
 
